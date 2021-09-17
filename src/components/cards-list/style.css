@@ -5,6 +5,10 @@
   border-radius: 10px;
   margin: 1rem auto;
 }
+.showingCards {
+  display: flex;
+  flex-flow: column nowrap;
+}
 
 @media (min-width: 1023px) {
   .filter-container {
@@ -16,5 +20,9 @@
 
   input {
     margin-left: 1rem;
+  }
+  .showingCards {
+    display: flex;
+    flex-flow: row wrap;
   }
 }
